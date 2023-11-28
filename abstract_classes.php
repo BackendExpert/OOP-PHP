@@ -23,4 +23,6 @@
         }
     }
 
+    $yamaha = new yamaha("yamaha", "orange");
+    $bmw = new bmw("bmw", "white");
 ?>
