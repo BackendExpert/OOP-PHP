@@ -9,6 +9,8 @@
             $this->color = $color;
             $this->brand = $brand;
         }
+
+        public function __destruct()
     }
 
 ?>
