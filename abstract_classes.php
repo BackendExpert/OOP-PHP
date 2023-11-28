@@ -24,5 +24,7 @@
     }
 
     $yamaha = new yamaha("yamaha", "orange");
+    echo $yamaha->intro();
     $bmw = new bmw("bmw", "white");
+    echo $bmw->intro();
 ?>
