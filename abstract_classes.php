@@ -1,5 +1,5 @@
 <?php 
-    class bike{
+    abstract class bike{
         public $model;
         public $color;
 
@@ -7,7 +7,7 @@
             $this->model = $model;
             $this->color = $color;
         }
-        
+        abstract public function intro() : string;
     }
 
 ?>
