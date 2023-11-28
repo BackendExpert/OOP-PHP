@@ -17,4 +17,10 @@
         }
     }
 
+    class bmw extends bike{
+        public function intro() : string{
+            return  "This bike is 2nd Fastest in World. The bike is $this->name and bike color is $this->color .";
+        }
+    }
+
 ?>
