@@ -11,13 +11,13 @@
         }
 
         public function __destruct(){
-            echo "Car Model is {$this->model} and color is {$this->color} and also brand is {$this->brand}.";
+            echo "Car Model is {$this->model} and color is {$this->color} and also brand is {$this->brand}.<br>";
         }
     }
 
     class bmw extends Car{
         public function car_infor(){
-            echo "This car is BMW i8";
+            echo "This car is BMW i8...........<br>";
         }
     }
 
