@@ -12,6 +12,6 @@
         }
     }
 
-    
+    $Audi = new car("White", "Audi");
 
 ?>
