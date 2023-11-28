@@ -15,4 +15,13 @@
         }
     }
 
+    class bmw extends Car{
+        public function car_infor(){
+            echo "This car is BMW i8";
+        }
+    }
+
+    $toyota = new Car("Abc", "silver", "toyota");
+    $bmw = new bmw("i8", "white", "BMW");
+    
 ?>
