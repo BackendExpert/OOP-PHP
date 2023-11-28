@@ -10,7 +10,9 @@
             $this->brand = $brand;
         }
 
-        public function __destruct()
+        public function __destruct(){
+            echo "Car Model is {$this->model} and color is {$this->color} and also brand is {$this->brand}.";
+        }
     }
 
 ?>
