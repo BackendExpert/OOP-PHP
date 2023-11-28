@@ -21,7 +21,9 @@
         }
     }
 
-    $toyota = new Car("Abc", "silver", "toyota");
+    $toyota = new Car("Abc", "silver", "toyota");    
     $bmw = new bmw("i8", "white", "BMW");
+    echo "<br>";
+    $bmw->car_infor();
     
 ?>
